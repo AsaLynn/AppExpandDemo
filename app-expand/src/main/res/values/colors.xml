@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main">#00BB9C</color>
+    <!-- 深绿色 -->
+    <color name="main_deep">#009c82</color>
+    <!-- 灰色 -->
+    <color name="main_gray">#dcdcdc</color>
+    <!-- 主页的个数 -->
+    <color name="main_text">#646464</color>
+
+</resources>

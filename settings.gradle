@@ -1,1 +1,1 @@
-include ':app', ':app-expand'
+include ':app', ':app-expand', ':date-picker'

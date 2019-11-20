@@ -9,5 +9,10 @@
         </attr>
     </declare-styleable>
 
+    <declare-styleable name="ArcView">
+        <attr name="arcHeight" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+
 
 </resources>
