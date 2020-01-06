@@ -1,4 +1,4 @@
-package com.zxn.expandapp.widget;
+package com.zxn.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -13,8 +13,6 @@ import android.view.View.OnFocusChangeListener;
 import android.view.animation.Animation;
 import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
-
-import com.zxn.expandapp.R;
 
 
 

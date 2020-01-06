@@ -5,15 +5,14 @@ android系统控件拓展
 
 `dependencies {}`中添加配置:
 ```
-implementation 'com.zxn.crease:CreaseViewLib:1.0.2'
-implementation 'com.zxn.crease:CreaseViewLib:1.0.0'
+implementation 'com.zxn.widget:expand-widget:1.1.0'
 ```
     
 #### 使用:
 
 xml布局中放置控件
 ```
-<com.zxn.expandapp.widget.ExpandCheckBox
+<com.zxn.widget.ExpandCheckBox
     android:id="@+id/cb_checked_all"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -41,7 +40,7 @@ cbCheckedAll.setOnBoxCheckedChangeListener((buttonView, isChecked) -> Toast.make
 
 #### 打标签:
 
-数量增减控件1.0.2:增加复选框控件
+系统控件拓展1.0.2:增加复选框控件
 ```
 git tag -a v1.0.2 -m '增加复选框控件'
 git push origin v1.0.2

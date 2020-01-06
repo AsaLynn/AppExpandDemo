@@ -14,11 +14,9 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 2
-        versionName "1.0.2"
-
+        versionCode 10
+        versionName "1.1.0"
 //        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -30,14 +28,13 @@ android {
 
 }
 
-
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-def siteUrl = 'https://github.com/zhang721688/AppExpandDemo'//TODO:修改仓库AppExpandDemo
-def gitUrl = 'https://github.com/zhang721688/AppExpandDemo.git'//TODO:修改仓库AppExpandDemo
-def libName = "app-expand"//TODO:修改依赖app-expand
-group = "com.zxn.expandapp"//TODO:修改包名com.zxn.expandapp
-version = "1.0.2"
+def siteUrl = 'https://github.com/zhang721688/AppExpandDemo'
+def gitUrl = 'https://github.com/zhang721688/AppExpandDemo.git'
+def libName = "expand-widget"
+group = "com.zxn.widget"
+version = "1.1.0"
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'

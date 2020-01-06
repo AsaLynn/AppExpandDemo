@@ -1,12 +1,11 @@
 package com.zxn.expand.demo;
 
 import android.os.Bundle;
-import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.zxn.expandapp.widget.ExpandCheckBox;
+import com.zxn.widget.ExpandCheckBox;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

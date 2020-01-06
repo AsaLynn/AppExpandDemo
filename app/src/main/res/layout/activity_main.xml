@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.zxn.expandapp.widget.ExpandCheckBox
+    <com.zxn.widget.ExpandCheckBox
         android:id="@+id/cb_checked_all"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

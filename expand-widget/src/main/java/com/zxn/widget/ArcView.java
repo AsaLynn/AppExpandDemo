@@ -1,4 +1,4 @@
-package com.zxn.expandapp.widget;
+package com.zxn.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,6 @@ import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.zxn.expandapp.R;
 
 
 public class ArcView extends View {

@@ -9,8 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app-expand" />
-            <option value="$PROJECT_DIR$/date-picker" />
+            <option value="$PROJECT_DIR$/expand-widget" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
