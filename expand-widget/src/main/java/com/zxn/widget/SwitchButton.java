@@ -266,6 +266,7 @@ public class SwitchButton extends View implements Checkable {
             postInvalidate();
         }
     };
+    private boolean isToggle;
     private Animator.AnimatorListener animatorListener
             = new Animator.AnimatorListener() {
         @Override
@@ -805,10 +806,8 @@ public class SwitchButton extends View implements Checkable {
 
     @Override
     public void toggle() {
+        isToggle = true;
         toggle(true);
-        if (null != onCheckedChangeListener) {
-            onCheckedChangeListener.onTouchCheckedChanged(this, isChecked);
-        }
     }
 
     /**
@@ -873,8 +872,12 @@ public class SwitchButton extends View implements Checkable {
         if (onCheckedChangeListener != null) {
             isEventBroadcast = true;
             onCheckedChangeListener.onCheckedChanged(this, isChecked());
+            if (isToggle) {
+                onCheckedChangeListener.onTouchCheckedChanged(this, isChecked());
+            }
         }
         isEventBroadcast = false;
+        isToggle = false;
     }
 
     @Override
