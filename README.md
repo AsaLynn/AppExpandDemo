@@ -5,6 +5,7 @@ android系统控件拓展
 
 `dependencies {}`中添加配置:
 ```
+implementation 'com.zxn.widget:expand-widget:1.1.1'
 implementation 'com.zxn.widget:expand-widget:1.1.0'
 ```
     
@@ -36,9 +37,17 @@ cbCheckedAll.setOnBoxCheckedChangeListener((buttonView, isChecked) -> Toast.make
 #### 效果图
 
 ![Image text](/image/view.png)
+![Image text](/image/view1.png)
 
 
 #### 打标签:
+
+系统控件拓展1.1.1:增加开关控件
+```
+git tag -a v1.1.1 -m '增加开关控件'
+git push origin v1.1.1
+git tag
+```
 
 系统控件拓展1.0.2:增加复选框控件
 ```

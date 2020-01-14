@@ -23,11 +23,58 @@
         android:textColor="@color/c_101010"
         android:textSize="@dimen/sp_12" />
 
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="ToggleButton"
+        android:textOff="关闭"
+        android:textOn="打开" />
+
+    <com.zxn.widget.SwitchButton
+        android:id="@+id/sb_plug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp_10"
+        app:sb_border_width="@dimen/dp_1"
+        app:sb_checked="false"
+        app:sb_checked_color="@color/c_00bb9c"
+        app:sb_show_indicator="false"
+        app:sb_uncheckcircle_radius="@dimen/dp_10" />
+
+    <com.zxn.widget.SwitchButton
+        android:id="@+id/sb_plug_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp_10"
+        app:sb_border_width="@dimen/dp_1"
+        app:sb_checked="false"
+        app:sb_checked_color="@color/c_00bb9c"
+        app:sb_show_indicator="false"
+        app:sb_uncheckcircle_radius="@dimen/dp_10" />
+
     <Button
-        android:layout_marginTop="@dimen/dp_20"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="代码全选" />
+    <Button
+        android:id="@+id/btn_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="代码开关相应监听" />
 
+    <Button
+        android:id="@+id/btn_switch_none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="代码开关无监听" />
 </LinearLayout>
