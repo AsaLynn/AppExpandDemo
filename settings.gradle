@@ -1,1 +1,1 @@
-include ':app', ':expand-widget'/*, ':date-picker'*/
+include ':app', ':expand-widget', ':appRebound'/*, ':date-picker'*/

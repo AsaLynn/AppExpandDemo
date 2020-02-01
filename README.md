@@ -5,6 +5,7 @@ android系统控件拓展
 
 `dependencies {}`中添加配置:
 ```
+implementation 'com.zxn.widget:expand-widget:1.1.3'
 implementation 'com.zxn.widget:expand-widget:1.1.2'
 implementation 'com.zxn.widget:expand-widget:1.1.1'//bug
 implementation 'com.zxn.widget:expand-widget:1.1.0'
@@ -43,6 +44,13 @@ cbCheckedAll.setOnBoxCheckedChangeListener((buttonView, isChecked) -> Toast.make
 
 #### 打标签:
 
+系统控件拓展1.1.3:增加开关控件
+```
+git tag -a v1.1.3 -m '增加弹性的ScrollView'
+git push origin v1.1.3
+git tag
+```
+
 系统控件拓展1.1.2:增加开关控件
 ```
 git tag -a v1.1.2 -m '增加开关控件'
@@ -57,9 +65,3 @@ git push origin v1.1.1
 git tag
 ```
 
-系统控件拓展1.0.2:增加复选框控件
-```
-git tag -a v1.0.2 -m '增加复选框控件'
-git push origin v1.0.2
-git tag
-```
