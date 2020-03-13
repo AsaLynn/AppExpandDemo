@@ -5,7 +5,7 @@ android系统控件拓展
 
 `dependencies {}`中添加配置:
 ```
-implementation 'com.zxn.widget:expand-widget:1.1.5'
+implementation 'com.zxn.widget:expand-widget:1.1.6'
 implementation 'com.zxn.widget:expand-widget:1.1.4'
 implementation 'com.zxn.widget:expand-widget:1.1.3'
 implementation 'com.zxn.widget:expand-widget:1.1.2'
