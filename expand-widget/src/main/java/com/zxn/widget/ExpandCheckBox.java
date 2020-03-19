@@ -8,6 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatCheckBox;
 
 /**
+ * Expand
  * 一个只有手动选中复选框后相应事件的CheckBox
  * Created by zxn on 2020/1/6.
  */
