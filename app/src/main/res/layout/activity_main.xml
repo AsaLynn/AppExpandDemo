@@ -64,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
         android:text="代码全选" />
+
     <Button
         android:id="@+id/btn_switch"
         android:layout_width="match_parent"
@@ -77,4 +78,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
         android:text="代码开关无监听" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="输入框的使用" />
+
 </LinearLayout>

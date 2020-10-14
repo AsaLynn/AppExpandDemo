@@ -1,19 +1,21 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 29
-        versionCode 16
-        versionName "1.1.7"
-//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 30
+        versionCode 17
+        versionName "1.1.8"
     }
 
     buildTypes {
@@ -31,7 +33,7 @@ def siteUrl = 'https://github.com/zhang721688/AppExpandDemo'
 def gitUrl = 'https://github.com/zhang721688/AppExpandDemo.git'
 def libName = "expand-widget"
 group = "com.zxn.widget"
-version = "1.1.7"
+version = "1.1.8"
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
@@ -105,4 +107,7 @@ javadoc {
         version true
         links "http://docs.oracle.com/javase/7/docs/api"
     }
+}
+repositories {
+    mavenCentral()
 }

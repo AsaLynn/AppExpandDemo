@@ -17,6 +17,7 @@ import java.lang.reflect.Method;
  * 一个屏蔽键盘输入的EditText.
  * Updated by zxn on 2019/11/14.
  */
+@Deprecated
 public class NoInputEditText extends AppCompatEditText {
 	boolean canPaste() {
 		return false;

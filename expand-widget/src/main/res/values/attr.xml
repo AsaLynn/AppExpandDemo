@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<!--    <declare-styleable name="ExpandEditText">
+        <attr name="drawableIcon" format="reference" />
+        <attr name="drawableClear" format="reference" />
+    </declare-styleable>-->
+
     <declare-styleable name="ExpandTextView">
         <attr name="drawable_gravity">
             <enum name="center" value="17" />
