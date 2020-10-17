@@ -61,10 +61,10 @@ cbCheckedAll.setOnBoxCheckedChangeListener((buttonView, isChecked) -> Toast.make
 
 #### 打标签:
 
-系统控件拓展1.1.8:增加Toolbar
+系统控件拓展1.1.9:增加Toolbar
 ```
-git tag -a v1.1.8 -m '升级输入框ExpandEditText'
-git push origin v1.1.8
+git tag -a v1.1.9 -m '增加Toolbar'
+git push origin v1.1.9
 git tag
 ```
 
