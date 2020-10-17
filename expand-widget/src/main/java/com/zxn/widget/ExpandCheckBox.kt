@@ -10,7 +10,8 @@ import androidx.appcompat.widget.AppCompatCheckBox
  * 一个只有手动选中复选框后相应事件的CheckBox
  * Created by zxn on 2020/1/6.
  */
-class ExpandCheckBox @JvmOverloads constructor(context: Context?, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : AppCompatCheckBox(context!!, attrs, defStyleAttr) {
+class ExpandCheckBox @JvmOverloads constructor(context: Context?, attrs: AttributeSet? = null, defStyleAttr: Int = 0)
+    : AppCompatCheckBox(context!!, attrs, defStyleAttr) {
     private var mOnBoxCheckedChangeListener: OnBoxCheckedChangeListener? = null
     override fun getAccessibilityClassName(): CharSequence {
         return ExpandCheckBox::class.java.name

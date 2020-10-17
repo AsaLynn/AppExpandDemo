@@ -5,8 +5,7 @@ android系统控件拓展
 
 `dependencies {}`中添加配置:
 ```
-implementation 'com.zxn.widget:expand-widget:1.1.8'
-implementation 'com.zxn.widget:expand-widget:1.1.6'
+implementation 'com.zxn.widget:expand-widget:1.1.9'
 ```
     
 #### 使用:
@@ -61,6 +60,13 @@ cbCheckedAll.setOnBoxCheckedChangeListener((buttonView, isChecked) -> Toast.make
 
 
 #### 打标签:
+
+系统控件拓展1.1.8:增加Toolbar
+```
+git tag -a v1.1.8 -m '升级输入框ExpandEditText'
+git push origin v1.1.8
+git tag
+```
 
 系统控件拓展1.1.8:升级输入框
 ```

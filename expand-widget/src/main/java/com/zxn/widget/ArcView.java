@@ -6,12 +6,16 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
+
 import androidx.annotation.Nullable;
+
 import android.util.AttributeSet;
 import android.view.View;
 
-
-
+/**
+ * 圆弧的好绘制.
+ * Updated by zxn on 2020.10.17.
+ */
 public class ArcView extends View {
     private int mWidth;
     private int mHeight;
@@ -39,7 +43,7 @@ public class ArcView extends View {
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ArcView);
         mArcHeight = typedArray.getDimensionPixelSize(R.styleable.ArcView_arcHeight, 0);
-        mBgColor=typedArray.getColor(R.styleable.ArcView_bgColor,getResources().getColor(R.color.main));
+        mBgColor = typedArray.getColor(R.styleable.ArcView_bgColor, getResources().getColor(R.color.main));
 
         mContext = context;
         mPaint = new Paint();

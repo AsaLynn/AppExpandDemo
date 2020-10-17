@@ -37,10 +37,13 @@ class MainActivity : AppCompatActivity() {
         })
 
         sbPlug!!.setOnCheckedChangeListener(object : SwitchButton.OnCheckedChangeListener {
-            override fun onCheckedChanged(view: SwitchButton, isChecked: Boolean) {}
-            override fun onTouchCheckedChanged(view: SwitchButton, isChecked: Boolean) {
+            override fun onCheckedChanged(view: SwitchButton?, isChecked: Boolean) {
+
+            }
+
+            override fun onTouchCheckedChanged(view: SwitchButton?, isChecked: Boolean) {
                 Toast.makeText(this@MainActivity, "sbPlugIsChecked:$isChecked", Toast.LENGTH_SHORT).show()
-                Log.i(TAG, "onTouchCheckedChanged: $isChecked")
+//                Log.i(TAG, "onTouchCheckedChanged: $isChecked")
             }
         })
         sbPlugClick!!.setOnClickListener { v: View? -> Toast.makeText(this@MainActivity, "setOnClickListener:" + sbPlugClick!!.isChecked, Toast.LENGTH_SHORT).show() }
@@ -49,6 +52,10 @@ class MainActivity : AppCompatActivity() {
             //EditTextActivity
             EditTextActivity.jumpTo()
         })
+        btn_toolbar.setOnClickListener(View.OnClickListener {
+            ToolbarActivity.jumpTo()
+        })
+
     }
 
     @OnClick(R.id.button, R.id.btn_switch, R.id.btn_switch_none)
