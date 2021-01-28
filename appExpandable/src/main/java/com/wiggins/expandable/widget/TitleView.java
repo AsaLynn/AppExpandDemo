@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.wiggins.expandable.R;
 import com.wiggins.expandable.base.BaseActivity;
 
 
@@ -54,20 +55,20 @@ public class TitleView extends LinearLayout {
             addView(textView);
         } else {
             inflater = LayoutInflater.from(context);
-            layout = inflater.inflate(com.zxn.widget.R.layout.title_top_widget, this, true);
+            layout = inflater.inflate(R.layout.title_top_widget, this, true);
 
             initView();
         }
     }
 
     private void initView() {
-        mIvLeftImage = (ImageView) layout.findViewById(com.zxn.widget.R.id.iv_left_image);
-        mIvRightImage = (ImageView) layout.findViewById(com.zxn.widget.R.id.iv_right_image);
+        mIvLeftImage = (ImageView) layout.findViewById(R.id.iv_left_image);
+        mIvRightImage = (ImageView) layout.findViewById(R.id.iv_right_image);
 
-        mTvLeftText = (TextView) layout.findViewById(com.zxn.widget.R.id.tv_left_text);
-        mTvRightText = (TextView) layout.findViewById(com.zxn.widget.R.id.tv_right_text);
+        mTvLeftText = (TextView) layout.findViewById(R.id.tv_left_text);
+        mTvRightText = (TextView) layout.findViewById(R.id.tv_right_text);
 
-        mTvTitle = (TextView) layout.findViewById(com.zxn.widget.R.id.tv_title);
+        mTvTitle = (TextView) layout.findViewById(R.id.tv_title);
     }
 
     /**

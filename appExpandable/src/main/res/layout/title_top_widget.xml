@@ -15,7 +15,6 @@
             android:layout_width="58dp"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
-            android:background="@drawable/title_back_selector"
             android:contentDescription="@null"
             android:visibility="visible" />
 
