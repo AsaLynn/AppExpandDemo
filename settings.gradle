@@ -1,1 +1,2 @@
+include ':appExpandable'
 include ':app', ':expand-widget', ':appRebound'/*, ':date-picker'*/

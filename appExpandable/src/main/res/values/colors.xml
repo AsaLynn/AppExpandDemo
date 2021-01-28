@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <color name="main">#00BB9C</color>
-    <!-- 深绿色 -->
-    <color name="main_deep">#009c82</color>
-    <!-- 灰色 -->
-    <color name="main_gray">#dcdcdc</color>
-    <!-- 主页的个数 -->
-    <color name="main_text">#646464</color>
-
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#63aade</color>
     <color name="colorAccent">#FF4081</color>
@@ -29,6 +20,6 @@
     <color name="blue">#63aade</color>
     <color name="blue_pressed">#99ccee</color>
     <color name="black">#333333</color>
-    <color name="orange">#FFEB78</color>
+    <color name="orange">#FA7C20</color>
     <color name="transparent">#00000000</color>
 </resources>
