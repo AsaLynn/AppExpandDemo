@@ -23,7 +23,7 @@ import com.zxn.widget.utils.DensityUtil;
 
 /**
  * @Description 多文本折叠/展开效果
- * @Author 一花一世界
+ * @Author contentTextColor
  */
 public class ExpandableTextView extends LinearLayout implements View.OnClickListener {
 
@@ -157,7 +157,7 @@ public class ExpandableTextView extends LinearLayout implements View.OnClickList
         setDrawbleAndText();
         mLlExpand.setOnClickListener(this);
 
-        mTvContent.setTextColor(contentTextColor);
+        //mTvContent.setTextColor(contentTextColor);
         mTvContent.getPaint().setTextSize(contentTextSize);
         mTvExpand.setTextColor(collapseExpandTextColor);
         mTvExpand.getPaint().setTextSize(collapseExpandTextSize);

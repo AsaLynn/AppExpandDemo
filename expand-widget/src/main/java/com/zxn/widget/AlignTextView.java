@@ -1,5 +1,6 @@
 package com.zxn.widget;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -13,10 +14,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * androidx.appcompat.widget.AppCompat
  * @Description 两端对齐的TextView，可以设置最后一行靠左、靠右或居中对齐
- * @Author 一花一世界
+ * @Author AppCompatTextView
  */
-public class AlignTextView extends androidx.appcompat.widget.AppCompatTextView {
+@SuppressLint("AppCompatCustomView")
+public class AlignTextView extends TextView {
 
     private float textHeight;//单行文字高度
     private float textLineSpaceExtra = 0;//额外的行间距
@@ -105,7 +108,7 @@ public class AlignTextView extends androidx.appcompat.widget.AppCompatTextView {
         }
     }
 
-    @Override
+   /* @Override
     protected void onDraw(Canvas canvas) {
         TextPaint paint = getPaint();
         paint.setColor(getCurrentTextColor());
@@ -150,7 +153,7 @@ public class AlignTextView extends androidx.appcompat.widget.AppCompatTextView {
                         paddingTop + textLineSpaceExtra * i, paint);
             }
         }
-    }
+    }*/
 
     /**
      * @param align 对齐方式

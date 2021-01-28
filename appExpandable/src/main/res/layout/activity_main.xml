@@ -64,11 +64,14 @@
                 android:background="@color/white"
                 android:ellipsize="end"
                 android:padding="@dimen/padding_small"
-                android:textColor="@color/blue"
                 app:allClickable="false"
-                app:contentTextColor="@color/blue"
                 app:isDisplayIcon="false"
                 app:maxCollapsedLines="4" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+
+<!--
+android:textColor="@color/blue"
+app:contentTextColor="@color/blue"
+-->
